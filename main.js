@@ -7,17 +7,16 @@ form.addEventListener('submit' ,function(e){
     const password = document.getElementById('pass').value;
 
     const errorMassage = document.getElementById('error');
-    if (!email.includes("@")){
-        errorMassage.textContent ='invalid sytax'
-
-    }
+  
 
     if (email === "" || password===""){
        errorMassage.textContent = 'All fields are required'
+    } else if (!email.includes("@")){
+        errorMassage.textContent ='invalid sytax'
     }else{
-        errorMassage.textContent = 'Sucssess'
-        
-    }
+        errorMassage.textContent = 'Sucssess'  
+    } 
+    
 });
 
 
