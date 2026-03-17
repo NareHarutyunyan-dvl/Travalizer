@@ -150,6 +150,7 @@ p{
 }
 
 
+
 .buttens{
     display: flex;
     justify-content: space-between;
@@ -227,7 +228,6 @@ p{
 
 
 .pitrure{
-    /* height: 714px; */
     background-color: #e9d0ba;
     border-radius: 0px 24px 24px 0px;
     display: flex;
@@ -278,7 +278,6 @@ p{
 
     .form{
         width: 100%;
-        /* padding-left: 24px; */
     }
 
     .buttenSign{
@@ -306,7 +305,7 @@ p{
     .travelRecom{
         font-size: 20px;
         margin-top: 32px;
-        /* margin-left: 24px; */
+       
     }
 
 
@@ -317,37 +316,32 @@ p{
 
     .welcome{
         margin-top: 16px;
-        /* margin-left: 24px; */
     }
 
 
     .emailText{
         margin-top: 40px;
-        /* margin-left: 24px; */
     }
 
 
     .emaiInput{
         margin-top: 8px;
-        /* margin-left: 24px; */
     }
 
 
     .password{
         margin-top: 24px;
-        /* margin-left: 24px; */
     }
 
 
     .circle{
         margin-top: 8px;
-        /* margin-left: 24px; */
     }
 
     .point{
         margin-top: 24px;
-        /* margin-left: 24px; */
     }
+
 
     .rememberMe{
         margin-top: 24px;
@@ -364,9 +358,6 @@ p{
         margin-top: 24px;
     }
 
-   
-
-  
 
     .loginWith{
         display: flex;
@@ -381,10 +372,6 @@ p{
     .pitrure img{
         width: 100%;
     }
-
-
-    
-
     
 }
 
