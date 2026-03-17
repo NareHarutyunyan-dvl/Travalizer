@@ -28,17 +28,17 @@
                 </div>
                     <p class="travelRecom">Artificial Intelligence giving you travel recommendations</p>
                     <p class="welcome">Welcome Back, Please login to your account</p>
-                <form>
+                <form id="myForm">
                     <div>
                         <p class="emailText">Email</p>
                     <div>
-                        <input type="email" name="email" value="robert.langster@gmail.com" class="emaiInput">
+                        <input  id="email" name="email" class="emaiInput">
                     </div>
                 </div>
                 <div>
                     <p class="password">Password</p>
                     <div>
-                        <input type="password" name="password" value="imeges/circle" class="circle">
+                        <input type="password" id="pass" name="password" class="circle">
                      </div>
                 </div>
                 <div class="savePass">
@@ -53,11 +53,11 @@
                     </div>
                 </div>
                 <div class="buttens">
-                    <button class="buttonLogin">Login</button>
-                    <button class="buttenSign">Sign Up</button>
+                    <button type="submit" class="buttonLogin">Login</button>
+                    <button type="button" class="buttenSign">Sign Up</button>
                 </div>
+                <p id="error"></p>
                 </form>
-                
                 <div class="contact">
                     <p class="loginWith">Or, login with</p>
                     <div class="loginBy">
@@ -66,9 +66,7 @@
                         <p class="loginG">Google</p>
                     </div>     
                 </div> 
-
             </div>
-           
             </div>
             <div class="pitrure">
                  <div>
